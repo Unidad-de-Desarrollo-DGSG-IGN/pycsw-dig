@@ -39,6 +39,9 @@ docker exec -ti pycsw-test pycsw-admin.py --help
 se listan las opciones que ofrece dicho programa.
 No existe un administrador gráfico para gestionar metadatos ni para visualizarlos.
 
+Al solicitar a la aplicación que registre todos los metadatos, se le indica un archivo llamado default.cfg, el cual se encuentra en `config/default.cfg`. Dentro de ese archivo se encuentra la configuración del sistema, entre esos datos están los correspondientes a los metadatos generales del servicio CSW. Este archivo debe ser configurado según se indica en https://docs.pycsw.org/en/2.6.1/configuration.html
+Para esta demostración se dejó el contenido del archivo `default.cfg` tal como viene por defecto.
+
 Para revisar los metadatos que se han registrado en el sistema se puede recorrer el directorio `/gisdata-master/gisdata/metadata/good`
 Como se mencionó anteriormente, no existe una forma visual de ver los metadatos, la aplicación solo ofrece una API para su consulta. Esta API tampoco ofrece la posibilidad de gestionar los metadatos, solo se puede hacer esta tarea a través de `pycsw-admin.py`.
 
