@@ -35,8 +35,10 @@ Como se puede apreciar, toda la administración de pycsw se realiza a través de
 docker exec -ti pycsw-test pycsw-admin.py --help
 ```
 se listan las opciones que ofrece dicho programa.
+No existe un administrador gráfico para gestionar metadatos ni para visualizarlos.
 
 Para revisar los metadatos que se han registrado en el sistema se puede recorrer el directorio `/gisdata-master/gisdata/metadata/good`
+Como se mencionó anteriormente, no existe una forma visual de ver los metadatos, la aplicación solo ofrece una API para su consulta. Esta API tampoco ofrece la posibilidad de gestionar los metadatos, solo se puede hacer esta tarea a través de `pycsw-admin.py`.
 
 Todos los atributos de los metadatos son registrados en la base de datos en una única tabla:
 
