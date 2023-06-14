@@ -1,5 +1,7 @@
 # PyCSW para DIG
-[pycsw](https://pycsw.org/) es un servidor que implementa el estándar OGC CSW escrito en Python
+[pycsw](https://pycsw.org/) es un servidor que implementa el estándar OGC CSW escrito en Python.
+
+Su documentación se encuentra en https://pycsw.org/docs/
 
 ## Despliegue
 
