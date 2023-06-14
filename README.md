@@ -23,7 +23,7 @@ docker run --rm --name pycsw-test --volume ./config/default.cfg:/home/pycsw/pycs
 3. Para saber si el servidor se ha desplegado correctamente acceder a http://localhost:8000/
 
 ## Administración
-Por defecto, pycsw funciona con una base de datos SQLite, la misma se encuentra en el archivo `./db/data.db`
+Por defecto, pycsw funciona con una base de datos SQLite (aunque admite la implementación en PostgreSQL y MySQL), la misma se encuentra en el archivo `./db/data.db`
 La información que allí contiene se generó a partir de la ejecución del siguiente comando:
 
 ```bash
